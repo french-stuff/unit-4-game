@@ -1,0 +1,80 @@
+body {
+    background-image: url("../images/gems.png");
+    background-repeat: no-repeat;
+    background-size: 1000px 800px;
+}
+
+.header{
+    background:rgba(61, 198, 49, 0.824);
+    color: black;
+    width: 200px;
+    padding-left: 65px;
+    margin-left: 365px;
+
+
+}
+
+.instructions{
+    padding-left: 30px;
+    margin-left: 20px;
+    background: rgba(110, 230, 228, 0.523);
+    font-weight: bold;
+}
+
+.instructions h2 {
+    text-align: center;
+}
+
+.instructions p {
+    text-align: center;
+}
+
+.numberToMatch {
+    background: palegoldenrod;
+    width: 235px;
+    height: 60px;
+    padding-left: 25px;
+    margin-left: 80px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.numberToMatch h2 {
+    position: absolute;
+    top: -5px;
+}
+
+.winsAndLosses {
+    background: palegreen;
+    width: 257px;
+    height: 55px;
+    margin-left: 80px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    position: relative;
+} 
+
+.winsAndLosses h3 {
+    position: absolute;
+    top: -12px;
+
+}
+
+.userTotal {
+    background: palevioletred;
+    width: 250px;
+    height: 55px;
+    position: relative;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+
+.userTotal h2 {
+    position: absolute;
+    top: -7px;
+    padding-left: 15px;
+}
+
+.gems {
+    margin-left: 80px;
+}
